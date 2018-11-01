@@ -20,6 +20,15 @@ import triangle from '../images/triangle.svg';
 import avatar from '../images/avatar.jpg';
 import '../styles/global';
 
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import { Carousel } from 'react-responsive-carousel';
+import SG1 from '../images/SG1.gif';
+import SG2 from '../images/SG2.gif';
+import SG3 from '../images/SG3.gif';
+import SG4 from '../images/SG4.gif';
+import M1 from '../images/M1.gif';
+import M2 from '../images/M2.gif';
+
 const Divider = styled(ParallaxLayer)`
   ${tw('absolute w-full h-full')};
   background: ${props => props.bg};
@@ -87,6 +96,19 @@ const ProjectsWrapper = styled.div`
   }
 `;
 
+const CarouselWrapper = styled.div`
+  ${tw('flex flex-wrap justify-between mt-8')};
+  display: grid;
+  grid-gap: 4rem;
+  grid-template-columns: repeat(2, 1fr);
+  @media (max-width: 1200px) {
+    grid-gap: 3rem;
+  }
+  @media (max-width: 900px) {
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+  }
+`;
 const WaveWrapper = styled.div`
   ${tw('absolute pin-b w-full')};
   transform: matrix(1, 0, 0, -1, 0, 0);
@@ -262,17 +284,36 @@ const Index = () => (
         offset={1.1}
         factor={2}
       />
-      <Content speed={0.4} offset={1.2} factor={2}>
+      <Content speed={0.4} offset={1.4} factor={2}>
         <Inner>
           <Title>Projects</Title>
+          <CarouselWrapper>
+            <Carousel>
+              <div>
+                <img alt="picture" src={SG1} />
+              </div>
+              <div>
+                <img alt="picture" src={SG2} />
+              </div>
+              <div>
+                <img alt="picture" src={SG3} />
+              </div>
+              <div>
+                <img alt="picture" src={SG4} />
+              </div>
+            </Carousel>
+
+            <Carousel>
+              <div>
+                <img alt="picture" src={M1} />
+              </div>
+              <div>
+                <img alt="picture" src={M2} />
+              </div>
+            </Carousel>
+          </CarouselWrapper>
+
           <ProjectsWrapper>
-            <ProjectCard
-              title="Minimalist"
-              link="https://github.com/parkjimin0/Minimalist"
-              bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
-            >
-              An aesthetically pleasing minimalistic mobile task manager.
-            </ProjectCard>
             <ProjectCard
               title="StickerGo"
               link="https://github.com/StickerGo/StickerGo1"
@@ -280,6 +321,14 @@ const Index = () => (
             >
               A multiplayer mobile IOS game that allows users to create drawings
               to "stick" in Augmented Reality.
+            </ProjectCard>
+
+            <ProjectCard
+              title="Minimalist"
+              link="https://github.com/parkjimin0/Minimalist"
+              bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+            >
+              An aesthetically pleasing minimalistic mobile task manager.
             </ProjectCard>
           </ProjectsWrapper>
         </Inner>
@@ -507,6 +556,7 @@ const Index = () => (
           </ContactText>
         </Inner>
       </Content>
+      <Footer>&copy; 2018 by Gatsby Starter Portfolio Cara. </Footer>
       <Divider speed={0.1} offset={4}>
         <UpDown>
           <SVG
