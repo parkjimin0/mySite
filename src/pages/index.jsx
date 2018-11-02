@@ -17,7 +17,7 @@ import {
 import { hidden } from '../styles/utils';
 import { colors } from '../../tailwind';
 import triangle from '../images/triangle.svg';
-import avatar from '../images/avatar.jpg';
+
 import '../styles/global';
 
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
