@@ -1,0 +1,11 @@
+{
+  "main.js": "render-page.js",
+  "main.js.map": "render-page.js.map",
+  "static/M1.gif": "static/M1-eb94d42e90d4e3b3a3e5beece787c389.gif",
+  "static/M2.gif": "static/M2-eea7c4b7cbac57e1e5691c58759aa207.gif",
+  "static/SG1.gif": "static/SG1-c590512c6a3b158d06f655868a29c95e.gif",
+  "static/SG2.gif": "static/SG2-5f3d14fc29386924e9a5bbac880a7abc.gif",
+  "static/SG3.gif": "static/SG3-5977b816e7272124674775e10b755a63.gif",
+  "static/SG4.gif": "static/SG4-23901d6140828bb1a429fa8e7ceb2cbf.gif",
+  "static/avatar.jpg": "static/avatar-4b97219ecef988015338bdfd63410443.jpg"
+}
