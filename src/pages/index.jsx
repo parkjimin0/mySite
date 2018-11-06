@@ -520,8 +520,7 @@ const Index = () => (
             creativity of being able to plan my own lesson plans yet applying my
             analytical sense to my students in test preparations for SAT and
             TOEFL. Being introduced to Javascript through a friend, I found
-            coding to come between a fine balance between art and logic. I am
-            now working towards to becoming a full-stack engineer.
+            coding to come between a fine balance between art and logic. 
           </AboutDesc>
         </Inner>
       </Content>
