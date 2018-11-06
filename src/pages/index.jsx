@@ -28,7 +28,7 @@ import SG3 from '../images/SG3.gif';
 import SG4 from '../images/SG4.gif';
 import M1 from '../images/M1.gif';
 import M2 from '../images/M2.gif';
-import avatar from '../images/avatar.jpg';
+import avatar from '../images/jimin.jpg';
 
 const Divider = styled(ParallaxLayer)`
   ${tw('absolute w-full h-full')};
