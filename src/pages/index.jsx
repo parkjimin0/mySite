@@ -5,6 +5,7 @@ import { Parallax, ParallaxLayer } from 'react-spring';
 import 'typeface-cantata-one';
 import 'typeface-open-sans';
 
+import { Carousel } from 'react-responsive-carousel';
 import SEO from '../components/SEO';
 import SVG from '../components/SVG';
 import ProjectCard from '../components/ProjectCard';
@@ -21,7 +22,6 @@ import triangle from '../images/triangle.svg';
 import '../styles/global';
 
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import { Carousel } from 'react-responsive-carousel';
 import SG1 from '../images/SG1.gif';
 import SG2 from '../images/SG2.gif';
 import SG3 from '../images/SG3.gif';
