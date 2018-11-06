@@ -5,7 +5,7 @@ module.exports = {
 
   siteTitle: 'Jimin Park - Fullstack Developer', // Navigation and Site Title
   siteTitleAlt: 'Jimin', // Alternative Site title for SEO
-  siteUrl: 'https://portfolio-cara.netlify.com', // Domain of your site. No trailing slash!
+  siteUrl: 'jiminpark.ga', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
   // siteLogo: '', // Used for SEO and manifest
   siteDescription: `Jimin Park's Portfolio`,
