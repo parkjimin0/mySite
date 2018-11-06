@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import styled from 'react-emotion';
 
 const Wrapper = styled.a`
-  width: 75%;
+  width: 100%;
 
   ${tw(
     'shadow-lg relative no-underline rounded-lg px-8 py-8 md:py-24 text-white'
