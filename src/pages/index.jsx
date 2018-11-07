@@ -290,25 +290,25 @@ const Index = () => (
           <Title>Projects</Title>
           <CarouselWrapper>
             <Carousel>
-              <div>
+              <div style={{ width: '50%' }}>
                 <img alt="picture" src={SG1} />
               </div>
-              <div>
+              <div style={{ width: '50%' }}>
                 <img alt="picture" src={SG2} />
               </div>
-              <div>
+              <div style={{ width: '50%' }}>
                 <img alt="picture" src={SG3} />
               </div>
-              <div>
+              <div style={{ width: '50%' }}>
                 <img alt="picture" src={SG4} />
               </div>
             </Carousel>
 
             <Carousel>
-              <div>
+              <div style={{ width: '50%' }}>
                 <img alt="picture" src={M1} />
               </div>
-              <div>
+              <div style={{ width: '50%' }}>
                 <img alt="picture" src={M2} />
               </div>
             </Carousel>
@@ -520,7 +520,7 @@ const Index = () => (
             creativity of being able to plan my own lesson plans yet applying my
             analytical sense to my students in test preparations for SAT and
             TOEFL. Being introduced to Javascript through a friend, I found
-            coding to come between a fine balance between art and logic. 
+            coding to come between a fine balance between art and logic.
           </AboutDesc>
         </Inner>
       </Content>
