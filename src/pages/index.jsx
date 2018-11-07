@@ -290,7 +290,7 @@ const Index = () => (
           <Title>Projects</Title>
           <CarouselWrapper>
             <Carousel>
-              <div style={{ width: '50%' }}>
+              <div style={{ margin: '0 25%', width: '50%' }}>
                 <img alt="picture" src={SG1} />
               </div>
               <div style={{ width: '50%' }}>
