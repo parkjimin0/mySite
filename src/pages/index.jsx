@@ -293,22 +293,22 @@ const Index = () => (
               <div>
                 <img alt="picture" src={SG1} />
               </div>
-              <div style={{ width: '50%' }}>
+              <div>
                 <img alt="picture" src={SG2} />
               </div>
-              <div style={{ width: '50%' }}>
+              <div>
                 <img alt="picture" src={SG3} />
               </div>
-              <div style={{ width: '50%' }}>
+              <div>
                 <img alt="picture" src={SG4} />
               </div>
             </Carousel>
 
             <Carousel>
-              <div style={{ width: '50%' }}>
+              <div>
                 <img alt="picture" src={M1} />
               </div>
-              <div style={{ width: '50%' }}>
+              <div>
                 <img alt="picture" src={M2} />
               </div>
             </Carousel>
