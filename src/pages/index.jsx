@@ -288,6 +288,7 @@ const Index = () => (
       <Content speed={0.4} offset={1.4} factor={2}>
         <Inner>
           <Title>Projects</Title>
+          <div style={{padding: "20px"}}>
           <CarouselWrapper>
             <Carousel>
               <div>
@@ -313,7 +314,7 @@ const Index = () => (
               </div>
             </Carousel>
           </CarouselWrapper>
-
+          <div>
           <ProjectsWrapper>
             <ProjectCard
               title="StickerGo"
