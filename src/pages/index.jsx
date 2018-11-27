@@ -288,7 +288,7 @@ const Index = () => (
       <Content speed={0.4} offset={1.4} factor={2}>
         <Inner>
           <Title>Projects</Title>
-          <div style={{padding: "20px"}}>
+          <div padding={20}>
           <CarouselWrapper>
             <Carousel>
               <div>
