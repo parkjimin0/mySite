@@ -289,32 +289,32 @@ const Index = () => (
         <Inner>
           <Title>Projects</Title>
           <div padding={20}>
-          <CarouselWrapper>
-            <Carousel>
-              <div>
-                <img alt="picture" src={SG1} />
-              </div>
-              <div>
-                <img alt="picture" src={SG2} />
-              </div>
-              <div>
-                <img alt="picture" src={SG3} />
-              </div>
-              <div>
-                <img alt="picture" src={SG4} />
-              </div>
-            </Carousel>
+            <CarouselWrapper>
+              <Carousel>
+                <div>
+                  <img alt="picture" src={SG1} />
+                </div>
+                <div>
+                  <img alt="picture" src={SG2} />
+                </div>
+                <div>
+                  <img alt="picture" src={SG3} />
+                </div>
+                <div>
+                  <img alt="picture" src={SG4} />
+                </div>
+              </Carousel>
 
-            <Carousel>
-              <div>
-                <img alt="picture" src={M1} />
-              </div>
-              <div>
-                <img alt="picture" src={M2} />
-              </div>
-            </Carousel>
-          </CarouselWrapper>
-          <div>
+              <Carousel>
+                <div>
+                  <img alt="picture" src={M1} />
+                </div>
+                <div>
+                  <img alt="picture" src={M2} />
+                </div>
+              </Carousel>
+            </CarouselWrapper>
+          </div>
           <ProjectsWrapper>
             <ProjectCard
               title="StickerGo"
